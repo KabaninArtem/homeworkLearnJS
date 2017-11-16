@@ -6,4 +6,5 @@ function factorial(n) {
     }
 }
 
-alert(factorial(5));
+var n = +prompt('Введите число для расчета факториала');
+alert('Факториал ' + n + ' = ' + factorial(n));

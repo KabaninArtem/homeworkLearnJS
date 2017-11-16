@@ -7,5 +7,5 @@ function sumTo(n) {
         return n;
     }
 }
-
-alert(sumTo(100));
+var n = +prompt('Введите число');
+alert('Сумма чисел с 1 по ' + n + ' включительно = ' + sumTo(n));
